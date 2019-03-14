@@ -35,4 +35,4 @@ Recovery Mode即恢复模式, 在Grub启动菜单选择“Advanced Options for U
 
 ## 4 退出恢复模式，正常启动
 
-输入exit命令回启动菜单，选择resume, 正常启动系统，在登录界面输入刚才新设的密码即可
+输入exit命令回车启动菜单，选择resume, 正常启动系统，在登录界面输入刚才新设的密码即可
