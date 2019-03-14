@@ -21,15 +21,18 @@ Recovery Mode即恢复模式, 在Grub启动菜单选择“Advanced Options for U
 ## 3 依次执行如下命令
 
 \# mount -o rw,remount /
-\# ls /home      # 系统中的用户
 
-\# passwd NEW_PASSWORD #重置密码
+\# ls /home
+
+\# passwd NEW_PASSWORD
+
+*注意：**NEW_PASSWORD**为新设的密码*
 
 <div align="center">
-<img src="./resource/figure/new_passwd.png" height=30% width=60% >
+<img src="./resource/figure/new_passwd.png" height=40% width=70% >
 </div>
 
 
-## 4 退出恢复模型，正常启动
+## 4 退出恢复模式，正常启动
 
 输入exit命令回启动菜单，选择resume, 正常启动系统，在登录界面输入刚才新设的密码即可
