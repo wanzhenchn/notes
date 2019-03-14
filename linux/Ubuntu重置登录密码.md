@@ -1,21 +1,29 @@
-# Ubuntu 16.04/18.04 ÖØÖÃµÇÂ½ÃÜÂë
+# Ubuntu 16.04/18.04 é‡ç½®ç™»å½•å¯†ç 
 
-## 1 ½øÈëRecovery Mode
+## 1 è¿›å…¥Recovery Mode
 
-Recovery Mode¼´»Ö¸´Ä£Ê½£»ÔÚGrubÆô¶¯²Ëµ¥Ñ¡Ôñ¡°Advanced Options for Ubuntu¡±
+Recovery Modeå³æ¢å¤æ¨¡å¼ï¼›åœ¨Grubå¯åŠ¨èœå•é€‰æ‹©â€œAdvanced Options for Ubuntuâ€
 
-## 2 Ñ¡Ôñ root Drop to root shell prompt
+<div align="center">
+<img src="./resource/figure/grub.png" height=20% width=50% >
+</div>
 
-½øÈë»Ö¸´²Ëµ¥Ñ¡Ôñ root¡£¡£¡£
+## 2 é€‰æ‹© root Drop to root shell prompt
 
-È»ºó»Ø³µ£»
+è¿›å…¥æ¢å¤èœå•é€‰æ‹© rootã€‚ã€‚ã€‚
 
-## 3 ÒÀ´ÎÖ´ÐÐÈçÏÂÃüÁî
+<div align="center">
+<img src="./resource/figure/recover.png" height=20% width=50% >
+</div>
+
+ç„¶åŽå›žè½¦ï¼›
+
+## 3 ä¾æ¬¡æ‰§è¡Œå¦‚ä¸‹å‘½ä»¤
 
 # mount -o rw,remount /
-# ls /home      # ÏµÍ³ÖÐµÄÓÃ»§
+# ls /home      # ç³»ç»Ÿä¸­çš„ç”¨æˆ·
 
-# passwd NEW_PASSWORD #ÖØÖÃÃÜÂë
+# passwd NEW_PASSWORD #é‡ç½®å¯†ç 
 
 
-## 4 Ö´ÐÐexitÃüÁî»Øµ½µ¼º½²Ëµ¥£¬Ñ¡Ôñresume¡£¡£¡£Õý³£Æô¶¯ÏµÍ³¡£
+## 4 æ‰§è¡Œexitå‘½ä»¤å›žåˆ°å¯¼èˆªèœå•ï¼Œé€‰æ‹©resumeã€‚ã€‚ã€‚æ­£å¸¸å¯åŠ¨ç³»ç»Ÿã€‚
